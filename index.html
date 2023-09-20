@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>おつり計算</title>
+</head>
+<body>
+    <h1>おつり計算</h1>
+    
+    <label for="money">所持金額：</label>
+    <input type="text" id="money" placeholder="所持金額を入力">
+    <br>
+    
+    <label for="product">購入金額：</label>
+    <input type="text" id="product" placeholder="購入金額を入力">
+    <br>
+    
+    <button onclick="calculateChange()">おつりを計算</button>
+
+    <hr>
+
+    <p id="changeAmount"></p>
+    <p>おつりの内訳:</p>
+    <ul id="changeBreakdown"></ul>
+
+    <script src="./main.js"></script>
+</body>
+</html>
